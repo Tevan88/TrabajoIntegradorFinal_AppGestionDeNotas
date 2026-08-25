@@ -10,6 +10,13 @@ Al contar con la experiencia de usuario de uno de los miembros del grupo creemos
 
 Es nuestro plan que la página cumpla con aspectos, tales como, `eficacia` (garantizar que el software haga exactamente lo que debe hacer), `fiabilidad` (que sea estable y no falle durante su ejecución), `usabilidad` (que el usuario pueda interactuar con la aplicación y la calidad de su experiencia de uso) y `rendimiento` (que el sistema sea eficaz y veloz)
 
+### La página deberá hacer: 
+* Carga de notas seleccionando el curso y la división,
+* Carga de contenidos y aprendizajes seleccionando curso y división,
+* Visualización de dichas notas en planillas por curso y división,
+* Video tutorial breve sobre cómo utilizar la página,
+* Ingreso con diferentes credenciales: Admin/Docente/Familiar con diferentes funcionalidades. Admin deberá poder cargar/modificar/eliminar datos de estudiantes, docentes y familiares. Docente deberá poder cargar/modificar/eliminar notas y contenidos y aprendizajes y visualización del video tutorial. Familiar deberá poder visualizar las notas, contenidos y aprendizajes cargados de su hijo/a. 
+
 ## Plan de trabajo
 
 
