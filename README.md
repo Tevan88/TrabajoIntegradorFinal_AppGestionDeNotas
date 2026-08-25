@@ -6,10 +6,16 @@ Basándonos en una aplicación web existente (deio) y al contar con la experienc
 
 Por lo tanto nos proponemos en el presente trabajo mejorar la carga de notas, contenidos y aprendizajes y mejorar el diseño intuitivo y la experiencia del usuario en su usabilidad.
 
-Que la página cumpla con aspectos, tales como, eficacia (garantizar que el software haga exactamente lo que debe hacer), fiabilidad (que sea estable y no falle durante su ejecución), usabilidad (que el usuario pueda interactuar con la aplicación y la calidad de su experiencia de uso) y rendimiento (que el sistema sea eficaz y veloz)
+Al contar con la experiencia de usuario de uno de los miembros del grupo creemos que podremos dar una solución real al problema con el que se encuentran año a año el cuerpo docente. 
+
+Es nuestro plan que la página cumpla con aspectos, tales como, `eficacia` (garantizar que el software haga exactamente lo que debe hacer), `fiabilidad` (que sea estable y no falle durante su ejecución), `usabilidad` (que el usuario pueda interactuar con la aplicación y la calidad de su experiencia de uso) y `rendimiento` (que el sistema sea eficaz y veloz)
 
 ## Plan de trabajo
 
+
 ## Stack tecnológico
-
-
+* Lenguaje: JavaScript/TypeScript - Java/SpringBoot (a definir en un futuro próximo)
+* Frontend: React + Tailwind CSS (TypeScript)
+* Backend: Node.js + TypeScript
+* Base de datos: SQL (PostgreSQL)
+* Despliegue/Entorno: Docker
