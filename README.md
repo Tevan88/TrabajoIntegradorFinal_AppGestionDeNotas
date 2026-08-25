@@ -15,10 +15,11 @@ Es nuestro plan que la página cumpla con aspectos, tales como, `eficacia` (gara
 * Carga de contenidos y aprendizajes seleccionando curso y división,
 * Visualización de dichas notas en planillas por curso y división,
 * Video tutorial breve sobre cómo utilizar la página,
-* Ingreso con diferentes credenciales: Admin/Docente/Familiar con diferentes funcionalidades. Admin deberá poder cargar/modificar/eliminar datos de estudiantes, docentes y familiares. Docente deberá poder cargar/modificar/eliminar notas y contenidos y aprendizajes y visualización del video tutorial. Familiar deberá poder visualizar las notas, contenidos y aprendizajes cargados de su hijo/a. 
+* Ingreso con diferentes credenciales: **Admin/Docente/Familiar** con diferentes funcionalidades. **Admin** deberá poder cargar/modificar/eliminar datos de estudiantes, docentes y familiares. **Docente** deberá poder cargar/modificar/eliminar notas y contenidos y aprendizajes y visualización del video tutorial. **Familiar** deberá poder visualizar las notas, contenidos y aprendizajes cargados de su hijo/a. 
 
 ## Plan de trabajo
 
+https://trello.com/invite/b/6a8e2122420964fcd890a3bb/ATTI7012be5147e3d749afc116705a0ceebf54E6930D/trabajointegradorfinalappgestiondenotas
 
 ## Stack tecnológico
 * Lenguaje: JavaScript/TypeScript - Java/SpringBoot (a definir en un futuro próximo)
