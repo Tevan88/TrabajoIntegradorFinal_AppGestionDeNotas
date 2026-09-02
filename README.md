@@ -29,7 +29,7 @@ Confiamos que con los conocimientos técnicos con los que contamos es altamente 
   * Definición final del stack y configuración del repositorio inicial con Docker.
 
 * **Etapa 2: Infraestructura Backend e Identidad/Roles (15/09 - 28/09)**
-  * Configuración del servidor con Node.js + TypeScript y conexión a PostgreSQL.
+  * Configuración del servidor y la conexión a la base de datos.
   * Implementación del sistema de autenticación y autorización según roles (**Admin**, **Docente**, **Familiar**).
   * Desarrollo de la API REST base y endpoints para la gestión de usuarios (CRUD de estudiantes, docentes y familiares).
 
