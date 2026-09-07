@@ -18,7 +18,6 @@ Para evaluar el impacto real del problema, se recopilaron datos cualitativos y c
 * El 63.2% de la muestra ha experimentado caída o lentitud del sistema en época de carga de notas/contenidos.
 * El 68.2% de la muestra califica como `Poco eficiente` la usabilidad del sistema DEIO.
 
-Link del Google Forms con los resultados de la encuesta: https://docs.google.com/forms/d/e/1FAIpQLSf5sKY_3TWhaxnABigAlQX2kYuvpNNS2bTUglmRRxv5SGEvQw/viewform?usp=sharing&ouid=115139310060353574681 
 
 ## Propuesta de Solución y Actores Beneficiados
 Proponemos el desarrollo de una aplicación web moderna, optimizada y enfocada en la usabilidad, diseñada para simplificar la carga de calificaciones y la comunicación pedagógica.
