@@ -11,9 +11,14 @@ En las instituciones de educación de Córdoba Capital, la carga periódica de n
 * Lentitud y Caídas del Sistema: Durante los períodos picos de cierre de trimestre/cuatrimestre, el alto tráfico provoca latencia extrema o indisponibilidad total de la plataforma.
 
 ### Cuantificación del Impacto Operativo
-Para evaluar el impacto real del problema, se recopilaron datos cualitativos y cuantitativos a partir de la experiencia operativa directa dentro del cuerpo docente:
+Para evaluar el impacto real del problema, se recopilaron datos cualitativos y cuantitativos a partir de la experiencia operativa directa dentro del cuerpo docente mediante una encuesta. Con una muestra de 19 docentes que contestaron un formulario, se pudo especificar los siguientes datos:
 
-**Encuesta en proceso**
+* El 63.2% de la muestra pasa de 1 a 3 horas dentro del sistema cada vez que debe cargar/registrar notas/contenidos.
+* El 89.5% de la muestra necesita un tutorial cada vez que entra para recordar cómo utilizar el sistema.
+* El 63.2% de la muestra ha experimentado caída o lentitud del sistema en época de carga de notas/contenidos.
+* El 68.2% de la muestra califica como `Poco eficiente` la usabilidad del sistema DEIO.
+
+Link del Google Forms con los resultados de la encuesta: https://docs.google.com/forms/d/e/1FAIpQLSf5sKY_3TWhaxnABigAlQX2kYuvpNNS2bTUglmRRxv5SGEvQw/viewform?usp=sharing&ouid=115139310060353574681 
 
 ## Propuesta de Solución y Actores Beneficiados
 Proponemos el desarrollo de una aplicación web moderna, optimizada y enfocada en la usabilidad, diseñada para simplificar la carga de calificaciones y la comunicación pedagógica.
