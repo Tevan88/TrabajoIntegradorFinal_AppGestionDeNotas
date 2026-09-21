@@ -1,0 +1,4 @@
+package TrabajoIntegradorFinal_AppGestionDeNotas.TrabajoIntegradorFinal_AppGestionDeNotas.Controllers;
+
+public class AuthController {
+}
