@@ -35,3 +35,12 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# ==========================================
+# FRONTEND (React + Vite + Node.js)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.oxlintrc.json
