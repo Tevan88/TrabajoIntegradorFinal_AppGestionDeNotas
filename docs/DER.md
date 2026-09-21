@@ -1,84 +1,81 @@
-// ENTIDADES DE ACCESO Y SEGURIDAD
-Table usuarios {
-  id integer [primary key, increment]
-  dni varchar [unique, not null]
-  email varchar [unique, not null]
-  password_hash varchar [not null]
-  rol varchar [not null] // ADMIN, DOCENTE, FAMILIAR
-}
+```mermaid
+erDiagram
+    USUARIOS ||--|| DOCENTES : "tiene perfil"
+    USUARIOS ||--|| FAMILIARES : "tiene perfil"
+    CURSOS ||--|{ ESTUDIANTES : "pertenece"
+    FAMILIARES }|--|{ ESTUDIANTES : "tutor_de"
+    DOCENTES ||--|{ ASIGNACIONES_DOCENTE : "imparte"
+    MATERIAS ||--|{ ASIGNACIONES_DOCENTE : "dicta"
+    CURSOS ||--|{ ASIGNACIONES_DOCENTE : "asignado"
+    ESTUDIANTES ||--o{ CALIFICACIONES : "recibe"
+    MATERIAS ||--o{ CALIFICACIONES : "pertenece"
+    CURSOS ||--o{ CONTENIDOS : "registra"
+    MATERIAS ||--o{ CONTENIDOS : "corresponde"
 
-// PERSONAS
-Table estudiantes {
-  id integer [primary key, increment]
-  curso_id integer [ref: > cursos.id]
-  nombre varchar [not null]
-  apellido varchar [not null]
-  dni varchar [unique, not null]
-  fecha_nacimiento date [not null]
-  telefono varchar
-  direccion varchar
-}
+    USUARIOS {
+        int id PK
+        string dni
+        string email
+        string password_hash
+        string rol
+    }
 
-Table docentes {
-  id integer [primary key, increment]
-  usuario_id integer [ref: - usuarios.id]
-  nombre varchar [not null]
-  apellido varchar [not null]
-  telefono varchar
-  direccion varchar
-}
+    ESTUDIANTES {
+        int id PK
+        int curso_id FK
+        string nombre
+        string apellido
+        string dni
+        date fecha_nacimiento
+    }
 
-Table familiares {
-  id integer [primary key, increment]
-  usuario_id integer [ref: - usuarios.id]
-  nombre varchar [not null]
-  apellido varchar [not null]
-  telefono varchar
-  direccion varchar
-}
+    DOCENTES {
+        int id PK
+        int usuario_id FK
+        string nombre
+        string apellido
+    }
 
-// RELACIÓN N:M ESTUDIANTE - FAMILIAR
-Table estudiante_familiar {
-  estudiante_id integer [ref: > estudiantes.id]
-  familiar_id integer [ref: > familiares.id]
-  parentesco varchar // Padre, Madre, Tutor Legal
-}
+    FAMILIARES {
+        int id PK
+        int usuario_id FK
+        string nombre
+        string apellido
+    }
 
-// ESTRUCTURA ACADÉMICA
-Table cursos {
-  id integer [primary key, increment]
-  anio varchar [not null] // ej: 3°
-  division varchar [not null] // ej: A
-  ciclo_lectivo integer [not null] // ej: 2026
-}
+    CURSOS {
+        int id PK
+        string anio
+        string division
+        int ciclo_lectivo
+    }
 
-Table materias {
-  id integer [primary key, increment]
-  nombre varchar [not null] // ej: Matemática, Lengua
-}
+    MATERIAS {
+        int id PK
+        string nombre
+    }
 
-// ASIGNACIÓN DOCENTE - MATERIA - CURSO
-Table asignaciones_docente {
-  id integer [primary key, increment]
-  docente_id integer [ref: > docentes.id]
-  materia_id integer [ref: > materias.id]
-  curso_id integer [ref: > cursos.id]
-}
+    ASIGNACIONES_DOCENTE {
+        int id PK
+        int docente_id FK
+        int materia_id FK
+        int curso_id FK
+    }
 
-// CARGA DE NOTAS Y CONTENIDOS (CORE MVP)
-Table calificaciones {
-  id integer [primary key, increment]
-  estudiante_id integer [ref: > estudiantes.id]
-  materia_id integer [ref: > materias.id]
-  nota decimal [not null]
-  trimestre integer [not null] // 1, 2, 3
-  fecha date [not null]
-}
+    CALIFICACIONES {
+        int id PK
+        int estudiante_id FK
+        int materia_id FK
+        decimal nota
+        int trimestre
+        date fecha
+    }
 
-Table contenidos {
-  id integer [primary key, increment]
-  curso_id integer [ref: > cursos.id]
-  materia_id integer [ref: > materias.id]
-  descripcion text [not null]
-  fecha date [not null]
-}
+    CONTENIDOS {
+        int id PK
+        int curso_id FK
+        int materia_id FK
+        string descripcion
+        date fecha
+    }
+```
