@@ -1,0 +1,4 @@
+package TrabajoIntegradorFinal_AppGestionDeNotas.TrabajoIntegradorFinal_AppGestionDeNotas.Config;
+
+public class SecurityConfig {
+}
