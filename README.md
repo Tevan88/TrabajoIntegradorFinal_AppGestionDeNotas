@@ -17,6 +17,7 @@ Para evaluar el impacto real del problema, se recopilaron datos cualitativos y c
 * El 89.5% de la muestra necesita un tutorial cada vez que entra para recordar cómo utilizar el sistema.
 * El 63.2% de la muestra ha experimentado caída o lentitud del sistema en época de carga de notas/contenidos.
 * El 68.2% de la muestra califica como `Poco eficiente` la usabilidad del sistema DEIO.
+<img width="835" height="396" alt="image" src="https://github.com/user-attachments/assets/f032c39f-2ea3-4d32-9bde-e2b96f76788f" />
 
 
 ## Propuesta de Solución y Actores Beneficiados
