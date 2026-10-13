@@ -1,6 +1,22 @@
 # Grupo 118 - Trabajo Integrador Final: App Gestión de Notas
 Aplicación web para la gestión ágil de calificaciones, contenidos y aprendizajes en centros educativos de Córdoba Capital.
 
+## 📋 Índice
+- [Contexto y Definición del Problema](#contexto-y-definición-del-problema)
+  - [Cuantificación del Impacto Operativo](#cuantificación-del-impacto-operativo)
+- [Propuesta de Solución y Actores Beneficiados](#propuesta-de-solución-y-actores-beneficiados)
+- [Actores del Sistema y Beneficios](#actores-del-sistema-y-beneficios)
+- [Alcance del Proyecto](#alcance-del-proyecto)
+  - [Funcionalidades Incluidas (DENTRO del Alcance - MVP)](#funcionalidades-incluidas-dentro-del-alcance---mvp)
+  - [Fuera del Alcance (OUT of Scope - MVP)](#fuera-del-alcance-out-of-scope---mvp)
+  - [Funcionalidades Futuras (Evolutivas Post-MVP)](#funcionalidades-futuras-evolutivas-post-mvp)
+- [Análisis de Viabilidad](#análisis-de-viabilidad)
+- [Criterios de Éxito Medibles](#criterios-de-éxito-medibles)
+- [Seguridad y Protección de Datos](#seguridad-y-proteccion-de-datos)
+- [Plan de Trabajo, Estimación de Horas y Cronograma](#plan-de-trabajo-estimación-de-horas-y-cronograma)
+- [Stack Tecnológico](#stack-tecnológico)
+
+---
 ## Contexto y Definición del Problema
 En las instituciones de educación de Córdoba Capital, la carga periódica de notas, contenidos y aprendizajes se realiza a través de plataformas gubernamentales/institucionales centralizadas (como gestión deio). Si bien estas herramientas cubren las necesidades administrativas básicas, presentan serias deficiencias operativas que afectan directamente el trabajo docente:
 
