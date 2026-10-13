@@ -14,10 +14,17 @@ En las instituciones de educación de Córdoba Capital, la carga periódica de n
 Para evaluar el impacto real del problema, se recopilaron datos cualitativos y cuantitativos a partir de la experiencia operativa directa dentro del cuerpo docente mediante una encuesta. Con una muestra de 19 docentes que contestaron un formulario, se pudo especificar los siguientes datos:
 
 * El 63.2% de la muestra pasa de 1 a 3 horas dentro del sistema cada vez que debe cargar/registrar notas/contenidos.
+<img width="741" height="400" alt="image" src="https://github.com/user-attachments/assets/6d8185e1-73ac-45df-a282-3a6583e7894f" />
+
 * El 89.5% de la muestra necesita un tutorial cada vez que entra para recordar cómo utilizar el sistema.
+<img width="713" height="395" alt="image" src="https://github.com/user-attachments/assets/d38d426c-ba99-4469-8527-97b8b9802b62" />
+
 * El 63.2% de la muestra ha experimentado caída o lentitud del sistema en época de carga de notas/contenidos.
+<img width="723" height="396" alt="image" src="https://github.com/user-attachments/assets/d7b5aedf-62ba-415c-903a-d51cf684ca02" />
+
 * El 68.2% de la muestra califica como `Poco eficiente` la usabilidad del sistema DEIO.
-<img width="835" height="396" alt="image" src="https://github.com/user-attachments/assets/f032c39f-2ea3-4d32-9bde-e2b96f76788f" />
+<img width="744" height="363" alt="image" src="https://github.com/user-attachments/assets/877f0701-ba26-4f41-846b-6e9fcd9cdacd" />
+
 
 
 ## Propuesta de Solución y Actores Beneficiados
