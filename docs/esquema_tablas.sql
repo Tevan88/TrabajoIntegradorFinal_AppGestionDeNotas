@@ -5,6 +5,7 @@ CREATE TABLE usuarios (
     email VARCHAR(150) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
     rol VARCHAR(20) NOT NULL CHECK (rol IN ('ADMIN', 'DOCENTE', 'FAMILIAR')),
+    activo BOOLEAN DEFAULT TRUE,
     creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -13,13 +14,15 @@ CREATE TABLE cursos (
     id SERIAL PRIMARY KEY,
     anio VARCHAR(10) NOT NULL,
     division VARCHAR(10) NOT NULL,
-    ciclo_lectivo INT NOT NULL
+    ciclo_lectivo INT NOT NULL,
+    activo BOOLEAN DEFAULT TRUE
 );
 
 -- 3. Tabla de Materias
 CREATE TABLE materias (
     id SERIAL PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL
+    nombre VARCHAR(100) NOT NULL,
+    activo BOOLEAN DEFAULT TRUE
 );
 
 -- 4. Tabla de Estudiantes
@@ -31,7 +34,8 @@ CREATE TABLE estudiantes (
     dni VARCHAR(20) UNIQUE NOT NULL,
     fecha_nacimiento DATE NOT NULL,
     telefono VARCHAR(30),
-    direccion VARCHAR(200)
+    direccion VARCHAR(200),
+    activo BOOLEAN DEFAULT TRUE
 );
 
 -- 5. Tabla de Docentes
@@ -41,7 +45,8 @@ CREATE TABLE docentes (
     nombre VARCHAR(100) NOT NULL,
     apellido VARCHAR(100) NOT NULL,
     telefono VARCHAR(30),
-    direccion VARCHAR(200)
+    direccion VARCHAR(200),
+    activo BOOLEAN DEFAULT TRUE
 );
 
 -- 6. Tabla de Familiares
@@ -51,7 +56,8 @@ CREATE TABLE familiares (
     nombre VARCHAR(100) NOT NULL,
     apellido VARCHAR(100) NOT NULL,
     telefono VARCHAR(30),
-    direccion VARCHAR(200)
+    direccion VARCHAR(200),
+    activo BOOLEAN DEFAULT TRUE
 );
 
 -- 7. Tabla Intermedia: Estudiante - Familiar
