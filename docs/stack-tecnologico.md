@@ -21,7 +21,26 @@ Decidimos estructurar nuestra aplicación web utilizando una `arquitectura en ca
 * **Tecnologías:** React, TypeScript, Tailwind CSS.
 
 ## Backend
-* **Tecnologías:** Node.js (Express / NestJS) con TypeScript (o Java con Spring Boot, a ratificar al cierre de la Etapa 1).
+* **Tecnologías:** Java con Spring Boot
+* La aplicación se divide lógicamente en los siguientes paquetes:
+**Controllers (Controladores - Capa de Presentación / API REST):**
+Función: Actúan como los puntos de entrada HTTP de la aplicación. Reciben las peticiones del frontend, validan parámetros básicos y delegan la lógica en los servicios, devolviendo respuestas JSON estructuradas.
+
+**Service (Servicios - Capa de Lógica de Negocio):**
+Función: Concentran las reglas de negocio del sistema de gestión de notas (por ejemplo, el cálculo de promedios, validación de escalas de calificaciones, permisos de docentes/alumnos). Orquestan las operaciones entre repositorios.
+
+**Repository (Repositorios - Capa de Acceso a Datos):**
+Función: Interfaces que extienden de Spring Data JPA. Se encargan de la comunicación directa con la base de datos relacional, automatizando las operaciones CRUD y permitiendo consultas personalizadas sin necesidad de escribir código SQL repetitivo.
+
+**Entity (Entidades - Modelo de Dominio Relacional):**
+Función: Clases que mapean las tablas de la base de datos relacional como objetos de Java (por ejemplo: Alumno, Materia, Nota, Docente). Representan el estado persistente del dominio escolar.
+
+**Dtos (Data Transfer Objects - Objetos de Transferencia de Datos):**
+Función: Estructuras de datos planas utilizadas para transferir información exclusivamente entre el cliente (frontend) y el servidor (backend). Evitan exponer las entidades de la base de datos directamente y optimizan el tráfico de red.
+
+**Config (Configuraciones):**
+Función: Clases de configuración global del framework (seguridad, beans de configuración, manejo de CORS, políticas de conexión, etc.).
+
 
 ## Base de Datos (PostgreSQL)
 Elegimos PostgreSQL como motor de base de datos porque nos ofrece:
