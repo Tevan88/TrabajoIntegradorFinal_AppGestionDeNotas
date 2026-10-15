@@ -2,7 +2,7 @@
 
 Para el desarrollo del sistema de gestión de notas para escuelas primarias, se ha seleccionado un stack tecnológico moderno, robusto y escalable, diseñado para garantizar la integridad de los datos académicos, la seguridad en las operaciones y una experiencia de usuario fluida y accesible.
 
-** Decidimos estructurar nuestra aplicación web utilizando una arquitectura en capas para separar claramente las responsabilidades del sistema. Elegimos este enfoque por los siguientes motivos:
+Decidimos estructurar nuestra aplicación web utilizando una `arquitectura en capas` para separar claramente las responsabilidades del sistema. Elegimos este enfoque por los siguientes motivos:
 
 * Nos permite que el código sea mucho más ordenado. Por un lado está la interfaz con la que interactúa el usuario (React), por otro la lógica que procesa las notas y permisos (Backend/Spring Boot), y por último la conexión con la base de datos (PostgreSQL). Si hay un error, sabemos exactamente en qué capa buscarlo sin romper el resto del sistema.
 * Al estar dividido por capas, los integrantes del grupo podemos dividirnos las tareas sin pisarnos el código. Uno puede estar trabajando en las consultas a la base de datos y otro en las pantallas de visualización de notas de forma independiente.
