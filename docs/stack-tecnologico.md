@@ -1,5 +1,7 @@
 # Stack Tecnológico
 
+##Para el desarrollo del sistema de gestión de notas para escuelas primarias, se ha seleccionado un stack tecnológico moderno, robusto y escalable, diseñado para garantizar la integridad de los datos académicos, la seguridad en las operaciones y una experiencia de usuario fluida y accesible.
+
 ## 📋 Índice
 - [Frontend](#frontend)
 - [Backend](#backend)
