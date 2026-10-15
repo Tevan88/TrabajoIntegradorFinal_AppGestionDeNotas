@@ -23,6 +23,7 @@ Decidimos estructurar nuestra aplicación web utilizando una `arquitectura en ca
 ## Backend
 * **Tecnologías:** Java con Spring Boot
 * La aplicación se divide lógicamente en los siguientes paquetes:
+  
 **Controllers (Controladores - Capa de Presentación / API REST):**
 Función: Actúan como los puntos de entrada HTTP de la aplicación. Reciben las peticiones del frontend, validan parámetros básicos y delegan la lógica en los servicios, devolviendo respuestas JSON estructuradas.
 
