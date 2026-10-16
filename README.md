@@ -4,12 +4,13 @@ Aplicación web para la gestión ágil de calificaciones, contenidos y aprendiza
 ## 📚 Documentación del Proyecto
 Para mantener el repositorio organizado, toda la especificación y detalles del proyecto se encuentran en la carpeta `docs/`:
 
-- 📋 [Contexto y Definición del Problema](./docs/contexto.md)
-- 👥 [Propuesta de Solución y Actores Beneficiados](./docs/propuesta-solucion.md)
-- 🎯 [Alcance del Proyecto (MVP y Futuras)](./docs/alcance.md)
-- 📈 [Análisis de Viabilidad y Criterios de Éxito](./docs/viabilidad-y-exito.md)
-- 🔒 [Seguridad y Protección de Datos](./docs/seguridad.md)
-- 📅 [Plan de Trabajo y Cronograma](./docs/cronograma.md)
+-  [Contexto y Definición del Problema](./docs/contexto.md)
+-  [Propuesta de Solución y Actores Beneficiados](./docs/propuesta-solucion.md)
+-  [Alcance del Proyecto (MVP y Futuras)](./docs/alcance.md)
+-  [Análisis de Viabilidad y Criterios de Éxito](./docs/viabilidad-y-exito.md)
+-  [Seguridad y Protección de Datos](./docs/seguridad.md)
+-  [Plan de Trabajo y Cronograma](./docs/cronograma.md)
+-  [Análisis de Riesgos y Acciones Preventivas](./docs/riesgos.md)
 - ⚙️ [Stack Tecnológico](./docs/stack-tecnologico.md)
 
 ---
