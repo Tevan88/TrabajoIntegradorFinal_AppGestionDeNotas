@@ -22,6 +22,14 @@ Decidimos estructurar nuestra aplicación web utilizando una `arquitectura en ca
 
 ## Backend
 * **Tecnologías:** Java con Spring Boot
+**Se seleccionó Java con Spring Boot por las siguientes razones:**
+
+Tipado Estricto y Robustez: Las notas escolares y los registros académicos son datos críticos que no admiten errores de tipo o inconsistencias en tiempo de ejecución. Java ofrece un tipado fuerte que previene errores comunes.
+
+Ecosistema Enterprise Maduro: Spring Boot provee una infraestructura lista para producción con mínima configuración (inyección de dependencias, seguridad integrada mediante Spring Security, y un excelente soporte para transacciones ACID).
+
+Estandarización y Escalabilidad: Es una tecnología adecuada parar sistemas institucionales, lo que garantiza que la API REST sea segura, predecible y fácil de escalar a futuro si la escuela requiere incorporar más módulos (asistencia, boletines, legajos).
+
 * La aplicación se divide lógicamente en los siguientes modulos:
   
 **Controllers (Controladores - Capa de Presentación / API REST):**
