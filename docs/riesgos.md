@@ -16,7 +16,7 @@ Para garantizar el éxito del proyecto y anticiparnos a posibles inconvenientes 
   * Implementar validaciones estrictas de control de acceso basado en roles tanto en el middleware del backend como en las rutas protegidas del frontend.
   * Asegurar la correcta firma y expiración de los tokens JWT y el cifrado seguro de contraseñas.
 
-## 4. Riesgo de Complejidad en la Interfaz de Carga (UX de la Planilla)
+## Riesgo de Complejidad en la Interfaz de Carga (UX de la Planilla)
 * Que la vista/planilla de notas resulte compleja de usar o lenta de renderizar en el navegador al listar muchos estudiantes y materias.
 * **Impacto:** Medio (afecta directamente el principal objetivo del proyecto: mejorar la usabilidad frente a las herramientas actuales).
 * **Acción Preventiva:** 
