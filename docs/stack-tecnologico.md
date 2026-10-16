@@ -20,6 +20,13 @@ Decidimos estructurar nuestra aplicación web utilizando una `arquitectura en ca
 ## Frontend
 * **Tecnologías:** React, TypeScript, Tailwind CSS.
 
+### ¿Por qué elegimos este Stack para el Frontend?
+Decidimos elegir esta combinación porque es la que mejor se adapta a nuestras necesidades y nos permite trabajar de forma ordenada y rápida:
+* **React:** Nos permite armar la interfaz dividiéndola en "componentes" reutilizables (como las planillas de notas, los botones y los distintos paneles). Esto hace que el código sea muy modular y fácil de mantener, ideal para lograr la vista matricial ágil que los docentes necesitan.
+* **TypeScript:** Al sumar tipado estático, nos ayuda a detectar errores mientras escribimos el código y no cuando la aplicación ya está funcionando. Nos da mucha seguridad al pasar datos (como las notas, los cursos o los perfiles de usuario) y evita errores inesperados.
+* **Tailwind CSS:** Nos da total libertad para diseñar de forma rápida y moderna sin tener que renegar con archivos CSS gigantes. Al basarse en clases utilitarias, podemos maquetar las pantallas de forma fluida y mantener una estética limpia y profesional en toda la plataforma.
+* **Vite:** Lo elegimos como herramienta de empaquetado porque es extremadamente rápido para iniciar el entorno de desarrollo y compilar el proyecto. A diferencia de herramientas más antiguas, los cambios que hacemos en el código se reflejan en la pantalla al instante, lo que acelera muchísimo los tiempos de programación.
+
 ## Backend
 * **Tecnologías:** Java con Spring Boot
 **Se seleccionó Java con Spring Boot por las siguientes razones:**
