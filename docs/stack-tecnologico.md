@@ -40,7 +40,7 @@ Función: Clases que mapean las tablas de la base de datos relacional como objet
 Función: Estructuras de datos planas utilizadas para transferir información exclusivamente entre el cliente (frontend) y el servidor (backend). Evitan exponer las entidades de la base de datos directamente y optimizan el tráfico de red.
 
 **Config (Configuraciones):**
-Función: Clases de configuración global del framework (seguridad, beans de configuración, manejo de CORS, políticas de conexión, etc.).
+Función: Clases de configuración global del framework (seguridad, políticas de conexión, etc.).
 
 
 ## Base de Datos (PostgreSQL)
