@@ -60,3 +60,18 @@ Elegimos PostgreSQL como motor de base de datos porque nos ofrece:
 
 ## Entorno y Despliegue
 * **Herramientas:** Docker, Docker Compose.
+**Se seleccionó por las siguientes razones:**
+  
+Aislamiento y Portabilidad : Garantiza que el entorno de desarrollo, pruebas y producción sean exactamente iguales, empaquetando dependencias, versiones de Java y librerías del sistema operativo de forma aislada.
+
+Orquestación Simplificada: Con un solo comando (docker-compose up), se levantan y conectan automáticamente los tres servicios en una red interna privada, configurando variables de entorno y volúmenes de persistencia sin intervenciones manuales complejas.
+
+Persistencia de Datos: Permite utilizar volúmenes de Docker (volumes) para que la base de datos PostgreSQL conserve la información de las notas incluso si los contenedores del backend o la base de datos se apagan o reinician.
+
+El proyecto se despliega utilizando Docker mediante una arquitectura de tres contenedores interconectados gestionados por un único archivo docker-compose.yml:
+
+    **Contenedor Frontend: Ejecuta la interfaz de usuario en React.**
+
+    **Contenedor Backend: Ejecuta la aplicación empaquetada en Spring Boot.**
+
+    **Contenedor Base de Datos: Ejecuta el motor de PostgreSQL**
